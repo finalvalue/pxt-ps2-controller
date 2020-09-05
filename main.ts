@@ -1,9 +1,9 @@
  namespace ps2controller {
 
-    let chipSelect = DigitalPin.P15
+    let chipSelect = DigitalPin.P16
     pins.digitalWritePin(chipSelect, 1)
 
-    pins.spiPins(DigitalPin.P13, DigitalPin.P14, DigitalPin.P16)
+    pins.spiPins(DigitalPin.P15, DigitalPin.P14, DigitalPin.P13)
     pins.spiFormat(8, 3)
     pins.spiFrequency(250000)
 
