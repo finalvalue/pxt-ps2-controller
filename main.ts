@@ -1,9 +1,9 @@
  namespace ps2controller {
 
-    let chipSelect = DigitalPin.P12
+    let chipSelect = DigitalPin.P15
     pins.digitalWritePin(chipSelect, 1)
 
-    pins.spiPins(DigitalPin.P15, DigitalPin.P14, DigitalPin.P13)
+    pins.spiPins(DigitalPin.P13, DigitalPin.P14, DigitalPin.P16)
     pins.spiFormat(8, 3)
     pins.spiFrequency(250000)
 
@@ -20,7 +20,7 @@
         `014400010300000000`
     const config_enable_vibration = hex
         `014d000001ffffffff`
-    */
+    */0
     const poll_cmd = hex
         `014200000000000000`
 

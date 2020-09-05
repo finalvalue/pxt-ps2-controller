@@ -5,7 +5,7 @@
     "license": "Apache",
     "dependencies": {
         "core": "*",
-        "reverse":  "github:gbraad/pxt-reversebit#v0.1.0"
+        "reverse": "github:gbraad/pxt-reversebit#v0.1.0"
     },
     "files": [
         "README.md",
@@ -18,5 +18,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
